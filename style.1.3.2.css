@@ -40,13 +40,17 @@ body{
 /*-----------------------OUTSIDE OF INTERFACE*/
 /*When aspect is less than 0.625 */
 #Title{
+	width: 100%;
+	height: auto;
+}
+
+#titleLink{
 	position: relative;
 	display: block;
 	top: 5vh;
-	margin-right: auto;
-	margin-left: auto;
+	margin: auto;
 	width: 75%;
-	/* max-width:200px;	 */
+	height: auto;
 }
 
 
@@ -229,7 +233,7 @@ body{
 		/* overflow: hidden; */
 		position: relative;
 		/* Background image (unblurred) centering and cropping */
-		background-color: mediumblue;
+		background-color: #B2BEB5;
 		
 		/* Center div */
 		padding: 0%;
@@ -273,13 +277,13 @@ body{
 
 	}
 
-	#Title{
-		position: relative;
-		display: block;
-		top: 5vh;
-		margin-right: auto;
-		margin-left: auto;
+	#titleLink{
 		height: 30%;
+		width: 42vh;
+	}
+
+	#Title{
+		height: 100%;
 		width: auto;
 	}
 
